@@ -12,6 +12,6 @@
 
 ### 커밋 컨벤션
 - docs : README.md 수정 내용
-- til : 내용
-- update : 수정내용
+- til : 카테고리 - 내용
+- update : 카테고리 - 수정내용
 
