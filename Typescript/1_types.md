@@ -52,8 +52,6 @@ TS에서 사용하는 타입에는 `number`, `string`, `boolean`, `undefined`, `
   }
   ```
 
-- Arrays : `number[]` 혹은 `Array<number>`로 표현
-
 <br>
 
 ## 활용
@@ -92,6 +90,31 @@ function addNumbers(...numbers: number[]): number {
   return numbers.reduce((a, b) => a + b);
 }
 ```
+
+### 2. Array
+배열을 타입정의 하는 방법은 `number[]` 혹은 `Array<number>`가 있다.<br><br>
+a. `readonly`<br>
+절대 변경할 수 없음을 표현한다. 이를 배열에 사용할때는 `readonly number[]`의 방법만 쓸 수 있다.
+
+b. Tuple<br>
+서로 다른 타입의 값을 갖는 배열을 말한다.<br>
+다른 타입의 데이터를 인덱스로만 구분할 수 있기 때문에 코드 가독성이 좋지 않다. 따라서, Tuple 사용을 지양하며 Object, Class로 대체해 사용하는걸 권장한다.(Interface, type alias 혹은 class 사용)
+
+```jsx
+let person: [string, number];
+person = ['gildong', 21];
+
+// ❌ Index로 값을 찾는것은 명시직이지 않다!
+console.log(person[0], person[1]) // gildong 21
+
+// ⭕️ 사용자가 이름을 정의해서 사용 (react의 useState)
+const [name, age] = student
+console.log(name, age) // gildong 21
+```
+
+_대체 방법은 추후 공부 예정이다_ 😛
+
+
 
 ## 참조
 
