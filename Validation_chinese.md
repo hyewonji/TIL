@@ -22,13 +22,8 @@
     - 중국어 간체, 번체의 거의 대부분이 포함됨
   - [한중일 통합한자 확장 B-H]
     - 유니코드 문자 평면중, ‘보조 한자 평면’ 혹은 그 외에 포함
-    - 사장님 보드 폰트(Spoqa Han Sans) 에서 깨지는 한자가 대부분이다. (절반이상)
-    - 중국어 지원 폰트에서도 대부분 지원하지 않는것으로 확인됨 (폰트 : [优设鲨鱼菲特健康体](https://www.fonts.net.cn/font-42292131415.html))
-    - 문자가 깨진다면 의미가 없으므로 **지원하지 않을것을 고려**
 
-> 참고 문서
->
-> 1. [유니코드와 한중일 통합 한자 - 민족문화 연구원](http://riksdb.korea.ac.kr/supercjk/imgClip/book_readme.pdf)
+> 참고 문서 : [유니코드와 한중일 통합 한자 - 민족문화 연구원](http://riksdb.korea.ac.kr/supercjk/imgClip/book_readme.pdf)
 
 <br>
 
@@ -38,6 +33,13 @@
 
 - `｛ ｝ 【 】 （ ） ？ ， ； ｜ ～ ！ “ ” ‘ ’` 등
 
-> 참고 사이트
->
-> 1. [문자 > 유니코드 변환](http://www.hipenpal.com/tool/characters-to-unicode-converter-in-korean.php)
+> 참고 사이트 : [문자 > 유니코드 변환](http://www.hipenpal.com/tool/characters-to-unicode-converter-in-korean.php)
+
+<br>
+
+### **한자 지원 폰트**
+
+- [한중일 통합 한자 확장] B - H 범위의는 폰트가 지원하지 않아 깨지는 한자가 대부분이다.
+- [TH-Tshyn](http://cheonhyeong.com/Simplified/download.html) : [한중일 통합 한자 확장] A - H 범위 모두 지원
+    
+> 참고 블로그 : [Tstory](https://k66google.tistory.com/680)
